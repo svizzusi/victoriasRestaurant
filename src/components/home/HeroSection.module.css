@@ -1,0 +1,54 @@
+.heroMainSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.heroSectionHeading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.heroSectionHeading h1 {
+    color: var(--orange);
+    padding: 20px 0;
+}
+
+.heroSectionHeading img {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.heroSectionSubHeading h2 {
+    color: var(--orange);
+    padding: 20px 0;
+}
+
+.HeroSectionCards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.HeroSectionCard {
+    width: 225px;
+}
+
+.HeroSectionCard h3{
+    padding: 10px 0;
+}
+
+.HeroSectionCard p{
+    padding: 10px 0;
+}
+
+.HeroSectionCard span{
+    padding-bottom: 50px;
+}
