@@ -1,8 +1,8 @@
 :root {
-    --orange: #DF7861;
-    --peach: #ECB390;
-    --seafoam: #D4E2D4;
-    --beige: #FCF8E8;
+    --tangerine: #DAB88B;
+    --peach: #B7CADB;
+    --seafoam: #F3E9DD;
+    --white: #FDF6EC;
     --black: #070707;
     --maxWidth: 1200px;
     --links: 2.2rem;
@@ -22,7 +22,7 @@
   }
   
   body {
-    background: var(--beige);
+    background: var(--seafoam);
   }
 
   h1 {

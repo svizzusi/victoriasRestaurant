@@ -18,8 +18,8 @@ const Footer = () => {
           <span>Fri 11:00 AM - 8:00 PM</span>
           <span>Sat 11:00 AM - 8:00 PM</span>
         </div>
-        <div className={style.footerSocialLink}>
-          <BsYelp />
+        <div>
+          <BsYelp className={style.footerSocialLink} />
         </div>
       </footer>
     </div>
