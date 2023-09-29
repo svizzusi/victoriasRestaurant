@@ -1,6 +1,6 @@
 header {
     width: 100%;
-    background: var(--peach);
+    background: var(--seafoam);
     border-radius: 0 0 8px 8px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(7.5px);
@@ -37,11 +37,11 @@ header {
 .navLinks li span{
     text-decoration: none;
     font-size: var(--links);
-    color: var(--white);
+    color: var(--maroon);
 }
 
 .navLinks li span:hover{
-    color: var(--tangerine);
+    color: var(--babyblue);
     transition: .3s ease-in-out;
 }
 
@@ -63,7 +63,7 @@ Media Queries
         position: absolute;
         right: 20px;
         top: 70px;
-        background: var(--tangerine);
+        background: var(--white);
         border-radius: 0 0 8px 8px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(7.6px);
@@ -81,7 +81,7 @@ Media Queries
         right: 0px;
         width: 40px;
         height: 4px;
-        background: var(--white);
+        background: var(--maroon);
         position: absolute;
         box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
         transition: 0.5s;
@@ -111,7 +111,7 @@ Media Queries
         position:absolute;
         width: 40px;
         height: 4px;
-        background: var(--white);
+        background: var(--maroon);
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         transition:0.5s;
     }

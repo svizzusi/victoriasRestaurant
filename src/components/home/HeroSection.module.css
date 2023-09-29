@@ -37,18 +37,19 @@
 }
 
 .heroSectionHeading h1 {
-    color: var(--tangerine);
+    color: var(--babyblue);
     padding: 20px 0;
 }
 
 .heroSectionSubHeading h2 {
-    color: var(--tangerine);
+    color: var(--babyblue);
     padding: 20px 0;
     margin-bottom: 50px;
 }
 
 .HeroSectionCards {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -62,7 +63,7 @@
 
 .HeroSectionCard h3{
     padding: 10px 0;
-    color: var(--tangerine);
+    color: var(--babyblue);
 }
 
 .HeroSectionCard p{

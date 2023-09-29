@@ -1,6 +1,7 @@
 import style from './HeroSection.module.css'
-import testImage from '../../assets/images/victoriasTestImage.jpeg'
 import logo from '../../assets/images/logo.webp'
+import Data from './HeroCardData'
+import HeroCard from './HeroCard';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
@@ -14,103 +15,21 @@ const HeroSection = () => {
           <img 
           className={style.heroMainLogo}
             src={logo} 
-            alt='Banner' 
+            alt='Logo' 
           />
         </div>
       </section>
         <hgroup className={style.heroSectionSubHeading}>
           <h2>Victoria's Favorites</h2>
         </hgroup>
-      <section className={style.HeroSectionCards}>
-        <div 
-        className={style.HeroSectionCard}
-        data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-        >
-          <img src={testImage} alt='#' />
-          <h3>Tacos</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam blanditiis cupiditate unde deleniti culpa eius quidem facilis repudiandae quia debitis.</p>
-          <span>$13.99</span>
-        </div>
-        <div 
-          className={style.HeroSectionCard}
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-        >
-          <img src={testImage} alt='#' />
-          <h3>Tacos</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam blanditiis cupiditate unde deleniti culpa eius quidem facilis repudiandae quia debitis.</p>
-          <span>$13.99</span>
-        </div>
-         <div 
-          className={style.HeroSectionCard}
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-        >
-          <img src={testImage} alt='#' />
-          <h3>Tacos</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam blanditiis cupiditate unde deleniti culpa eius quidem facilis repudiandae quia debitis.</p>
-          <span>$13.99</span>
-        </div>
-         <div 
-          className={style.HeroSectionCard}
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-        >
-          <img src={testImage} alt='#' />
-          <h3>Tacos</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam blanditiis cupiditate unde deleniti culpa eius quidem facilis repudiandae quia debitis.</p>
-          <span>$13.99</span>
-        </div>
-        <div 
-        className={style.HeroSectionCard}
-        data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-        >
-          <img src={testImage} alt='#' />
-          <h3>Tacos</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam blanditiis cupiditate unde deleniti culpa eius quidem facilis repudiandae quia debitis.</p>
-          <span>$13.99</span>
-        </div>
-        <div 
-          className={style.HeroSectionCard}
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-        >
-          <img src={testImage} alt='#' />
-          <h3>Tacos</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam blanditiis cupiditate unde deleniti culpa eius quidem facilis repudiandae quia debitis.</p>
-          <span>$13.99</span>
-        </div>
-         <div 
-          className={style.HeroSectionCard}
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-        >
-          <img src={testImage} alt='#' />
-          <h3>Tacos</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam blanditiis cupiditate unde deleniti culpa eius quidem facilis repudiandae quia debitis.</p>
-          <span>$13.99</span>
-        </div>
-         <div 
-          className={style.HeroSectionCard}
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-        >
-          <img src={testImage} alt='#' />
-          <h3>Tacos</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam blanditiis cupiditate unde deleniti culpa eius quidem facilis repudiandae quia debitis.</p>
-          <span>$13.99</span>
-        </div>
-      </section>
+        {
+            Data.map( item => (
+              <HeroCard 
+                    key={item.id}
+                    item={item}
+                />
+            ))
+        }
     </main>
   )
 };
