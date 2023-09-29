@@ -22,14 +22,16 @@ const HeroSection = () => {
         <hgroup className={style.heroSectionSubHeading}>
           <h2>Victoria's Favorites</h2>
         </hgroup>
-        {
-            Data.map( item => (
-              <HeroCard 
-                    key={item.id}
-                    item={item}
-                />
-            ))
-        }
+        <section className={style.HeroSectionCards}>
+          {
+              Data.map( item => (
+                <HeroCard 
+                      key={item.id}
+                      item={item}
+                  />
+              ))
+          }
+        </section>
     </main>
   )
 };
