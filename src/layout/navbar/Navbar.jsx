@@ -47,9 +47,9 @@ const Navbar = () => {
                       <span 
                           onClick={() => { 
                             closeNav()
-                            navigate('/location')
+                            navigate('/contact')
                           }}
-                      >Location & Hours</span>
+                      >Contact</span>
                   </li>
                 </ul>
                 <div 

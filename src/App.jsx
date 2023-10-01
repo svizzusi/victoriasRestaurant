@@ -2,8 +2,8 @@ import Navbar from "./layout/navbar/Navbar"
 import Footer from "./layout/footer/Footer"
 import Home from "./views/Home"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import About from "./views/About";
-import Location from "./views/Location";
+import AboutPage from "./views/AboutPage";
+import ContactPage from "./views/ContactPage";
 
 function App() {
   
@@ -18,11 +18,11 @@ function App() {
         ></Route>
         <Route
           path={'/about'}
-          element={<About />}
+          element={<AboutPage />}
         ></Route>
         <Route
-          path={'/location'}
-          element={<Location />}
+          path={'/contact'}
+          element={<ContactPage />}
         ></Route>
       </Routes>
       <Footer />

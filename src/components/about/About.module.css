@@ -1,0 +1,23 @@
+.aboutSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: var(--padding);
+}
+
+.aboutSectionImage {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 100px;
+}
+
+h1 {
+    color: var(--babyblue);
+}
+
+p{
+    padding: 0 20px;
+    line-height: 2.2rem;
+}
