@@ -36,6 +36,14 @@ const Navbar = () => {
                       >Home</span>
                   </li>
                   <li>
+                      <span  
+                          onClick={() => { 
+                            closeNav()
+                            navigate('/menu') 
+                        }}
+                      >Menu</span>
+                  </li>
+                  <li>
                       <span 
                           onClick={() => { 
                             closeNav()

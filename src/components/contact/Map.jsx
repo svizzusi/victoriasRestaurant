@@ -1,22 +1,11 @@
 import style from './Contact.module.css'
-import { useRef } from "react";
-import { MapContainer, TileLayer } from "react-leaflet";
-import "leaflet/dist/leaflet.css";
 
 const Map = () => {
-  const mapRef = useRef(null);
-  const latitude = 37.014396;
-  const longitude = -121.583751;
+  
 
   return ( 
       <div className={style.mapContainer}>
-        <MapContainer center={[latitude, longitude]} zoom={17} ref={mapRef} style={{height: '400px', width: "600px"}}>
-          <TileLayer
-            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          />
-          {/* Additional map layers or components can be added here */}
-        </MapContainer>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3185.8048142808925!2d-121.58632198782726!3d37.01445257207073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8091e3ccdefb37d1%3A0x701dd0c7ed18b44b!2sVictoria&#39;s%20Mexican%20Restaurant!5e0!3m2!1sen!2sus!4v1696170729695!5m2!1sen!2sus" width="100%" height="100%" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
       </div>
   )
 };
