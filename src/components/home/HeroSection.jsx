@@ -1,6 +1,6 @@
 import style from './HeroSection.module.css'
 import logo from '../../assets/images/logo.webp'
-import victoriasTestImage from '../../assets/images/victoriasTestImage.jpeg'
+import enchiladaTaco from '../../assets/images/enchiladaTaco.webp'
 import Data from './HeroCardData'
 import HeroCard from './HeroCard';
 import AOS from 'aos';
@@ -16,8 +16,8 @@ const HeroSection = () => {
         <div className={style.heroMainImageContainer}>
           <img 
           className={style.heroMainImg}
-            src={victoriasTestImage} 
-            alt='victoriasTestImage' 
+            src={enchiladaTaco} 
+            alt='Enchilada/Taco' 
           />
         </div>
       </section>
@@ -32,7 +32,7 @@ const HeroSection = () => {
         <h2>Victoria's Favorites</h2>
       </section>
       <section className={style.HeroSectionCards}>
-      <div className={style.heroBottomStripe}></div>
+        <div className={style.heroBottomStripe}></div>
         {
             Data.map( item => (
               <HeroCard 
