@@ -1,12 +1,34 @@
 .contactSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+}
+.contactSectionHeader {
+    background: var(--babyblue);
+    width: 100%;
     text-align: center;
-    padding: var(--padding);
-    padding-top: 150px;
 }
 
-.contactSection p {
+.contactSectionHeader h1 {
+    color: var(--maroon);
+    padding: 30px 0;
+}
+
+.contactSectionHeader p {
     font-size: 1.8rem;
-    padding: 15px 0;
+    padding: 5px 0;
+    color: var(--white);
+}
+
+.contactSectionHeader p + p{
+    margin-bottom: 20px;
+}
+
+.contactSectionHeaderLine {
+    background: var(--maroon);
+    height: 5px;
 }
 
 .contactHoursMapSection {
@@ -15,14 +37,23 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 25px;
+    background: var(--maroon);
+    width: 100%;
+    padding: 50px 0;
+}
+
+.contactHoursMapSectionline {
+    background: var(--white);
+    height: 5px;
 }
 
 .mapContainer {
     width: 100%;
     max-width: 600px;
-    height: 600px;
-    padding: var(--padding);
-    padding-bottom: 100px;
+    height: 400px;
+    padding: 10px;
+    border: 2px solid var(--white);
+    border-radius: 8px;
 }
 
 .mapContainer iframe{
@@ -35,7 +66,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    color: var(--maroon);
+    color: var(--white);
 }
 
 .contactHours span{

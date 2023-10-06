@@ -41,7 +41,7 @@ header {
 }
 
 .navLinks li span:hover{
-    color: var(--babyblue);
+    color: var(--white);
     transition: .3s ease-in-out;
 }
 

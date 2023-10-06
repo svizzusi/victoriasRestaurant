@@ -3,11 +3,11 @@ import style from './HeroSection.module.css'
 const HeroCard = (props) => {
   return (
       <div 
-        className={style.HeroSectionCard}
+        className={style.heroSectionCard}
         data-aos={`${props.item.dataAOS}`}
       >
         <img 
-          className={style.HeroSectionCardImg} 
+          className={style.heroSectionCardImg} 
           src={props.item.img} 
           alt={props.item.title} 
         />

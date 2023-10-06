@@ -1,9 +1,9 @@
 .heroMainSection {
+    padding-top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 80px;
 }
 
 .heroTopStripe {
@@ -23,8 +23,7 @@
 
 .heroSectionHeader h1 {
     color: var(--maroon);
-    padding-top: 40px;
-    padding-bottom: 30px;
+    padding: 20px 0;
 }
 
 .heroMainImageContainer {
@@ -46,7 +45,7 @@
     justify-content: center;
     gap: 25px;
     width: 100%;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .heroSectionSubHeader h2 {
@@ -62,7 +61,7 @@
     animation-timing-function: ease-in-out;
 }
 
-.HeroSectionCards {
+.heroSectionCards {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,7 +76,7 @@
     background: var(--white);
 }
 
-.HeroSectionCard {
+.heroSectionCard {
     width: 225px;
     margin-bottom: 20px;
     padding: 10px;
@@ -86,20 +85,20 @@
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
-.HeroSectionCardImg {
+.heroSectionCardImg {
     border-radius: 10px;
 }
 
-.HeroSectionCard h3{
+.heroSectionCard h3{
     padding: 10px 0;
     color: var(--babyblue);
 }
-
-.HeroSectionCard p{
+ 
+.heroSectionCard p{
     padding: 10px 0;
 }
 
-.HeroSectionCard span{
+.heroSectionCard span{
     padding-bottom: 50px;
 }
 

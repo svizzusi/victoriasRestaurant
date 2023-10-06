@@ -38,7 +38,7 @@
 }
 
 .footerAddress a:hover {
-    color: var(--babyblue);
+    color: var(--white);
     transition: .3s ease-in-out;
 }
 
@@ -63,7 +63,7 @@
 }
 
 .footerSocialLink:hover {
-    color: var(--babyblue);
+    color: var(--white);
     transition: .3s ease-in-out;
 }
 

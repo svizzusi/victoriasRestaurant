@@ -4,6 +4,7 @@ import Home from "./views/Home"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AboutPage from "./views/AboutPage";
 import ContactPage from "./views/ContactPage";
+import MenuPage from "./views/MenuPage";
 
 function App() {
   
@@ -15,6 +16,10 @@ function App() {
         <Route
           path={'/'}
           element={<Home />}
+        ></Route>
+        <Route
+          path={'/menu'}
+          element={<MenuPage />}
         ></Route>
         <Route
           path={'/about'}
