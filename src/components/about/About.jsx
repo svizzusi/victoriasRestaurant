@@ -12,7 +12,7 @@ const About = () => {
       <div className={style.aboutSectionTextContainer}>
         <div className={style.aboutBottomStripe}></div>
         <section className={style.aboutSectionText}>
-          <p>Step into Victoria's Mexican Restaurant, an enduring Gilroy, California treasure that has thrived for more than four decades. Established in 1981, we have become an integral part of our community's culture, bridging generations with our culinary legacy.</p>
+          <p>Step into Victoria's Mexican Restaurant, an enduring Gilroy, California treasure that has thrived for more than four decades. Established in 1983, we have become an integral part of our community's culture, bridging generations with our culinary legacy.</p>
 
           <p>Our family-owned establishment bears the name of our beloved matriarch, Victoria, as a tribute from her daughter, Linda. Linda, alongside her cherished sisters, Carmen and Maria, has dedicated herself to nurturing the heart of this restaurant.</p>
 
@@ -20,7 +20,7 @@ const About = () => {
 
           <p>Today, the legacy continues under the capable management of Linda's daughter, Vicki, named after her beloved grandmother. In addition to the restaurant, Vicki oversees a Pilates studio next door, embodying our commitment to both family and community.</p>
 
-          <p>Since 1981, we've had the privilege of serving multiple generations of families, forging enduring bonds with our patrons. We extend an earnest invitation for you to become a cherished member of our extended family here at Victoria's. We look forward to welcoming you soon, promising a heartwarming and unforgettable dining experience that reflects the essence of our rich history and enduring tradition.</p>
+          <p>Since 1983, we've had the privilege of serving multiple generations of families, forging enduring bonds with our patrons. We extend an earnest invitation for you to become a cherished member of our extended family here at Victoria's. We look forward to welcoming you soon, promising a heartwarming and unforgettable dining experience that reflects the essence of our rich history and enduring tradition.</p>
         </section>
         <div className={style.aboutBottomStripe}></div>
       </div>

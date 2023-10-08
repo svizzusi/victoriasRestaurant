@@ -6,11 +6,13 @@ const HeroCard = (props) => {
         className={style.heroSectionCard}
         data-aos={`${props.item.dataAOS}`}
       >
-        <img 
-          className={style.heroSectionCardImg} 
-          src={props.item.img} 
-          alt={props.item.title} 
-        />
+        <div className={style.heroSectionCardImgContainer}>
+          <img 
+            className={style.heroSectionCardImg} 
+            src={props.item.img} 
+            alt={props.item.title} 
+          />
+        </div>
         <h3>{props.item.title}</h3>
         <p>{props.item.details}</p>
         <span>{props.item.price}</span>

@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+    gap: 15px;
     background: var(--babyblue);
     padding-top: 80px;
 }
@@ -38,16 +38,40 @@
     background: var(--white);
 }
 
-.menuSectionText {
+.menuSectionCard {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
     width: 400px;
     border: 2px solid var(--babyblue);
     border-radius: 8px;
-    margin: 50px;
+    padding: 20px;
     background: var(--white);
+    height: fit-content;
 }
 
-.menuSectionText p {
-    padding: 10px 20px;
-    line-height: 2.2rem;
-    color: var(--maroon);
+.menuSectionCard h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.menuItemContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.menuItemContainer span{
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.menuItemDescriptionContainer {
+    padding-bottom: 10px;
+}
+
+.menuItemDescriptionContainer p {
+    font-size: 1.2rem
 }
