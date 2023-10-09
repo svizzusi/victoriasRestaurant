@@ -5,9 +5,10 @@ const Menu = () => {
     <section className={style.menuSection}>
       <div className={style.menuTopStripe}></div>
       <h1 className={style.menuSectionHeading}>Menu</h1>
+      {/* <div className={style.menuBottomStripe}></div> */}
       <div className={style.menuSectionTextContainer}>
-        <div className={style.menuBottomStripe}></div>
-        <section className={style.menuSectionCard}>
+        
+        <section className={`${style.div1} ${style.menuSectionCard} `}>
             <h2 className={style.menuSectionSubHeading}>APPETIZERS</h2>
             <h3>Complementry Chips and Salsa (Additonal baskets $2.00)</h3>
             <div className={style.menuItemContainer}>
@@ -39,7 +40,7 @@ const Menu = () => {
             </div>
         </section>
 
-        <section className={style.menuSectionCard}>
+        <section className={`${style.div2} ${style.menuSectionCard} `}>
             <h2 className={style.menuSectionSubHeading}>SPECIALTY COMBINATIONS</h2>
             <h3>(Served with soup or salad)</h3>
             <div className={style.menuItemContainer}>
@@ -75,7 +76,7 @@ const Menu = () => {
             </div>
         </section>
 
-        <section className={style.menuSectionCard}>
+        <section className={`${style.div3} ${style.menuSectionCard} `}>
             <h2 className={style.menuSectionSubHeading}>COMBINATIONS</h2>
             <h3>Served with rice & beans. (For an additional $1.00 add soup or salad)</h3>
             <div className={style.menuItemContainer}>
@@ -201,7 +202,7 @@ const Menu = () => {
             </div>
         </section>
 
-        <section className={style.menuSectionCard}>
+        <section className={`${style.div4} ${style.menuSectionCard} `}>
             <h2 className={style.menuSectionSubHeading}>BEVERAGES</h2>
             <div className={style.menuItemContainer}>
               <span>DRINKS</span>
@@ -233,7 +234,7 @@ const Menu = () => {
             </div>
         </section>
 
-        <section className={style.menuSectionCard}>
+        <section className={`${style.div5} ${style.menuSectionCard} `}>
             <h2 className={style.menuSectionSubHeading}>VICTORIA'S TEQUILA MARGARITA'S</h2>
             <div className={style.menuItemContainer}>
               <span>REGULAR MARGARITA</span>
@@ -265,7 +266,7 @@ const Menu = () => {
             </div>
         </section>
 
-        <section className={style.menuSectionCard}>
+        <section className={`${style.div6} ${style.menuSectionCard} `}>
             <h2 className={style.menuSectionSubHeading}>FAMILY FAVORITES</h2>
             <div className={style.menuItemContainer}>
               <span>DONALD'S FAVORITE</span>
@@ -335,7 +336,7 @@ const Menu = () => {
             </div>
         </section>
 
-        <section className={style.menuSectionCard}>
+        <section className={`${style.div7} ${style.menuSectionCard} `}>
             <h2 className={style.menuSectionSubHeading}>MAIN DISHES</h2>
             <div className={style.menuItemContainer}>
               <span>TACO SALAD</span>
@@ -407,7 +408,7 @@ const Menu = () => {
             </div>
         </section>
 
-        <section className={style.menuSectionCard}>
+        <section className={`${style.div8} ${style.menuSectionCard} `}>
             <h2 className={style.menuSectionSubHeading}>CHILDREN'S PLATTER</h2>
             <h3>(12 & under only)</h3>
             <h3>$6.99</h3>
@@ -415,32 +416,31 @@ const Menu = () => {
               <span>Choice of one of the following:</span>
             </div>
             <div className={style.menuItemDescriptionContainer}>
-              <p>TACO (Beef or chicken) (Carne asada add $1.00)</p>
+              <p>Taco (Beef or chicken) (Carne asada add $1.00)</p>
               <p>Bean & cheese burrito</p>
               <p>Cheese quesadilla</p>
               <p>Enchilada (Beef, chicken or cheese)</p>
             </div>
         </section>
 
-        <section className={style.menuSectionCard}>
+        <section className={`${style.div9} ${style.menuSectionCard} `}>
             <h2 className={style.menuSectionSubHeading}>A LA CARTE</h2>
-            <div className={style.menuItemContainer}>
-              <span>TAMALE OR CHILE RELLENO $6.25</span>
-              <span>RICE OR BEANS $3.50</span>
-              <span>GREEN SALAD $3.75</span>
-              <span>TORTILLAS $1.75</span>
-              <span>SIDE OF SOUR CREAM $1.25</span>
-              <span>CHIPS $3.95</span>
-              <span>SALSA $4.95</span>
-              <span>SIDE OF ??? $10.95</span>
-              <span>SOUP $10.95</span>
-              <span>SOUP $10.95</span>
+            <div className={style.menuItemDescriptionContainer}>
+              <p>TAMALE OR CHILE RELLENO $6.25</p>
+              <p>RICE OR BEANS $3.50</p>
+              <p>GREEN SALAD $3.75</p>
+              <p>TORTILLAS $1.75</p>
+              <p>SIDE OF SOUR CREAM $1.25</p>
+              <p>CHIPS $3.95</p>
+              <p>SALSA $4.95</p>
+              <p>SIDE OF ??? $10.95</p>
+              <p>SOUP $10.95</p>
+              <p>SOUP $10.95</p>
             </div>
         </section>
 
-        
-        <div className={style.menuBottomStripe}></div>
       </div>
+        {/* <div className={style.menuBottomStripe}></div> */}
     </section>
   )
 };
