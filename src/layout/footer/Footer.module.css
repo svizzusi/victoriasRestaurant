@@ -1,14 +1,14 @@
 .footerContainer {
     width: 100%;
     background: var(--seafoam);
-    border-radius: 8px 8px 0 0;
     position: static;
     bottom: 0;
     z-index: 1;
-    padding: var(--padding);
+    padding: 80px 0;
     padding-top: 15px;
     padding-bottom: 15px;
     height: fit-content;
+    border-top: 5px solid var(--white);
 }
 
 .footer {

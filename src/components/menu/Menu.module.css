@@ -3,73 +3,56 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 15px;
     background: var(--babyblue);
-    padding-top: 80px;
+    padding-top: 90px;
 }
 
 .menuSectionHeading {
     color: var(--maroon);
-}
-
-.menuTopStripe {
-    background: var(--maroon);
-    width: 100%;
-    height: 5px;
+    padding: 20px;
 }
 
 .menuSectionSubHeading {
     color: var(--babyblue);
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 
-/* .menuSectionTextContainer {
+.menuSectionTextContainerParent {
+    width: 100%;
     background: var(--maroon);
+    border-top: 5px solid var(--white);
+}
+
+.menuSectionTextContainer {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
-} */
-.menuBottomStripe {
-    width: 100%;
-    height: 5px;
-    background: var(--white);
+    margin: auto;
+    gap: 20px;
+    padding: 20px;
+    max-width: var(--maxWidth);
 }
 
 .menuSectionCard {
     display: flex;
     flex-direction: column;
-    border: 2px solid var(--babyblue);
+    border: 5px solid var(--babyblue);
     border-radius: 8px;
     padding: 20px;
+    width: 50%;
     background: var(--white);
     height: fit-content;
+    margin: 100px 0;
+}   
+
+.menuSectionItemContainer {
+    border: 2px solid var(--babyblue);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
 }
-
-
-.menuSectionTextContainer {
-    background: var(--maroon);
-    width: 100%;
-    height: 1323px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    /* grid-column-gap: 25px;
-    grid-row-gap: 20px; */
-    }
-    
-    .div1 { grid-area: 1 / 1 / 2 / 2; }
-    .div2 { grid-area: 2 / 1 / 3 / 2; }
-    .div3 { grid-area: 1 / 2 / 4 / 3; }
-    .div4 { grid-area: 3 / 3 / 4 / 4; }
-    .div5 { grid-area: 3 / 4 / 4 / 5; }
-    .div6 { grid-area: 1 / 3 / 2 / 4; }
-    .div7 { grid-area: 1 / 4 / 3 / 5; }
-    .div8 { grid-area: 3 / 1 / 4 / 2; }
-    .div9 { grid-area: 2 / 3 / 3 / 4; }
-
 
 .menuSectionCard h3 {
     font-size: 1.2rem;
@@ -81,6 +64,10 @@
     display: flex;
     justify-content: space-between;
     padding-bottom: 5px;
+}
+
+.menuItemContainer > span:first-child{
+    width: 80%;
 }
 
 .menuItemContainer span{
@@ -95,4 +82,33 @@
 
 .menuItemDescriptionContainer p {
     font-size: 1.2rem
+}
+
+
+@media screen and (max-width: 925px) {
+    .menuSectionTextContainer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menuSectionCard {
+        gap: 20px;
+        width: 100%;
+        margin: 0;
+    }  
+}
+
+@media screen and (max-width: 425px) {
+    .menuItemDescriptionContainer p {
+        font-size: 1rem
+    }
+
+    .menuItemContainer span{
+        font-size: 1.2rem;
+    }
+
+    .menuSectionCard h3 {
+        font-size: 1rem;
+    }
 }

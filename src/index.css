@@ -50,3 +50,47 @@
     height: 100%;
     object-fit: cover;
   }
+
+  @media screen and (max-width: 768px){
+    h1 {
+      font-size: 3.6rem;
+    }
+  
+    h2 {
+      font-size: 3rem;
+    }
+  
+    h3 {
+      font-size: 1.6rem;
+    }
+  
+    p {
+      font-size: 1.2rem;
+    }
+  
+    span {
+      font-size: 1rem;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    h1 {
+      font-size: 2.6rem;
+    }
+  
+    h2 {
+      font-size: 2.2rem;
+    }
+  
+    h3 {
+      font-size: 1.2rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  
+    span {
+      font-size: 1rem;
+    }
+  }

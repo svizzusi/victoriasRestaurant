@@ -10,8 +10,6 @@ AOS.init();
 const HeroSection = () => {
   return (
     <main className={style.heroMainSection}>
-
-      <div className={style.heroTopStripe}></div>
       <section className={style.heroSectionHeader}>
         <h1>Victoria's Mexican Restaurant</h1>
         <div className={style.heroMainImageContainer}>
@@ -35,7 +33,6 @@ const HeroSection = () => {
       </section>
 
       <section className={style.heroSectionCards}>
-        <div className={style.heroBottomStripe}></div>
         {
             Data.map( item => (
               <HeroCard 
@@ -44,7 +41,6 @@ const HeroSection = () => {
                 />
             ))
         }
-        <div className={style.heroBottomStripe}></div>
       </section>
     </main>
   )

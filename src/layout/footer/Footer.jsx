@@ -15,11 +15,7 @@ const Footer = () => {
         </div>
         <div className={style.footerHours}>
           <span>Sun & Mon Closed</span>
-          <span>Tue 11:00 AM - 8:00 PM</span>
-          <span>Wed 11:00 AM - 8:00 PM</span>
-          <span>Thu 11:00 AM - 8:00 PM</span>
-          <span>Fri 11:00 AM - 8:00 PM</span>
-          <span>Sat 11:00 AM - 8:00 PM</span>
+          <span>Tue- Sat 11:00 AM - 8:00 PM</span>
         </div>
         <div>
           <a 
