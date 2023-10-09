@@ -27,10 +27,7 @@
 .menuSectionTextContainer {
     background: var(--maroon);
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    display: grid;
 }
 .menuBottomStripe {
     width: 100%;

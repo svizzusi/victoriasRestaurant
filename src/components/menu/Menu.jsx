@@ -266,130 +266,175 @@ const Menu = () => {
         </section>
 
         <section className={style.menuSectionCard}>
-            <h2 className={style.menuSectionSubHeading}>Appetizers</h2>
-            <h3>Complementry Chips and Salsa (Additonal baskets $2.00)</h3>
+            <h2 className={style.menuSectionSubHeading}>FAMILY FAVORITES</h2>
             <div className={style.menuItemContainer}>
-              <span>NACHOS</span>
-              <span>$9.25</span>
+              <span>DONALD'S FAVORITE</span>
+              <span>$10.25</span>
             </div>
             <div className={style.menuItemDescriptionContainer}>
-              <p>Chips layered with cheese, beans and topped with sour cream, guacamole & tomatos</p>
-              <p>Chicken or Beef add $1.00</p>
-              <p>Linda's style topped w/ enchilada sauce add $1.00</p>
+              <p>2 Soft chicken tacos</p>
+              <p>Served with rice and beans</p>
             </div>
             <div className={style.menuItemContainer}>
-              <span>GUACAMOLE DIP</span>
-              <span>$8.75</span>
-            </div>
-            <div className={style.menuItemContainer}>
-              <span>POTATO SKINS</span>
-              <span>$9.75</span>
+              <span>EMMA'S SALAD</span>
+              <span>$10.25</span>
             </div>
             <div className={style.menuItemDescriptionContainer}>
-              <p>Topped with cheese, jalapenos, guacamole, sour cream and tomatos</p>
+              <p>Chicken, cilantro, onions, & whole beans</p>
             </div>
             <div className={style.menuItemContainer}>
-              <span>CHEESY "n" SAUCY BEAN DIP</span>
-              <span>$8.75</span>
+              <span>MICHAEL'S FAVORITE</span>
+              <span>$11.95</span>
             </div>
             <div className={style.menuItemDescriptionContainer}>
-              <p>Topped with toasted jalapenos</p>
+              <p>2 Chicken Enchiladas</p>
+              <p>Topped with green sauce, cheese, guacamole & jalapenos</p>
+              <p>Served with rice and beans</p>
+            </div>
+            <div className={style.menuItemContainer}>
+              <span>LAUREN'S GRILLED CHICKEN SALAD</span>
+              <span>$12.95</span>
+            </div>
+            <div className={style.menuItemDescriptionContainer}>
+              <p>Grilled chicken salad</p>
+              <p>Lettuce, whole beans, cheese and tomatoes</p>
+            </div>
+            <div className={style.menuItemContainer}>
+              <span>PRESLEY'S FAVORITE</span>
+              <span>$16.95</span>
+            </div>
+            <div className={style.menuItemDescriptionContainer}>
+              <p>(Tuesday-Satuday only)</p>
+              <p>Tilapia, shrimp, and rice</p>
+              <p>Toped with cheese, wrapped in foil</p>
+            </div>
+            <div className={style.menuItemContainer}>
+              <span>JOHN PERALES' SALAD</span>
+              <span>$17.95</span>
+            </div>
+            <div className={style.menuItemDescriptionContainer}>
+              <p>Prawns, grilled chicken and special sauce</p>
+              <p>Served with rice and beans</p>
+            </div>
+            <div className={style.menuItemContainer}>
+              <span>ERNESTO'S SEAFOOD TACO PLATTER</span>
+              <span>$14.95</span>
+            </div>
+            <div className={style.menuItemDescriptionContainer}>
+              <p>2 Shrimp or fish tacos</p>
+              <p>Served with rice and beans</p>
+            </div>
+            <div className={style.menuItemContainer}>
+              <span>CARMEN'S FAVORITE</span>
+              <span>$11.25</span>
+            </div>
+            <div className={style.menuItemDescriptionContainer}>
+              <p>3 Mini soft tacos</p>
+              <p>Served with cilantro, onions and special sauce</p>
+              <p>Served with rice and beans</p>
             </div>
         </section>
 
         <section className={style.menuSectionCard}>
-            <h2 className={style.menuSectionSubHeading}>Appetizers</h2>
-            <h3>Complementry Chips and Salsa (Additonal baskets $2.00)</h3>
+            <h2 className={style.menuSectionSubHeading}>MAIN DISHES</h2>
             <div className={style.menuItemContainer}>
-              <span>NACHOS</span>
-              <span>$9.25</span>
+              <span>TACO SALAD</span>
+              <span>$11.25</span>
             </div>
             <div className={style.menuItemDescriptionContainer}>
-              <p>Chips layered with cheese, beans and topped with sour cream, guacamole & tomatos</p>
-              <p>Chicken or Beef add $1.00</p>
-              <p>Linda's style topped w/ enchilada sauce add $1.00</p>
+              <p>Tortilla bowl (Beef or chicken)</p>
+              <p>Topped with cheese, sour cream & guacomole</p>
             </div>
             <div className={style.menuItemContainer}>
-              <span>GUACAMOLE DIP</span>
-              <span>$8.75</span>
-            </div>
-            <div className={style.menuItemContainer}>
-              <span>POTATO SKINS</span>
-              <span>$9.75</span>
+              <span>FAJITA SALAD</span>
             </div>
             <div className={style.menuItemDescriptionContainer}>
-              <p>Topped with cheese, jalapenos, guacamole, sour cream and tomatos</p>
+              <p>Beef or chicken $12.50</p>
+              <p>Shrimp $13.95</p>
             </div>
             <div className={style.menuItemContainer}>
-              <span>CHEESY "n" SAUCY BEAN DIP</span>
-              <span>$8.75</span>
+              <span>TOSTADAS</span>
             </div>
             <div className={style.menuItemDescriptionContainer}>
-              <p>Topped with toasted jalapenos</p>
+              <p>Beef, chicken, carnitas or carne asada $9.50</p>
+              <p>Bean and cheese $850</p>
+            </div>
+            <div className={style.menuItemContainer}>
+              <span>QUESADILLAS</span>
+            </div>
+            <div className={style.menuItemDescriptionContainer}>
+              <p>Cheese $8.25</p>
+              <p>Chicken, beef, or chile verde $9.25</p>
+              <p>Add rice and beans $2.00</p>
+            </div>
+            <div className={style.menuItemContainer}>
+              <span>TWO TACOS</span>
+              <span>$7.50</span>
+            </div>
+            <div className={style.menuItemDescriptionContainer}>
+              <p>Beef, chicken, carnitas, carne asada, or potato(Wed-sat only)</p>
+            </div>
+            <div className={style.menuItemContainer}>
+              <span>BURRITOS</span>
+            </div>
+            <div className={style.menuItemDescriptionContainer}>
+              <p>Chile verde, chile colorado, carnitas, carne asada or chicken $8.25</p>
+              <p>Bean & cheese $6.95</p>
+              <p>Veggie (Rice, beans, sour cream, guacamole, lettuce) $7.50</p>
+              <p>Topped with sauce and cheese add $2.00</p>
+            </div>
+            <div className={style.menuItemContainer}>
+              <span>Enchiladas</span>
+            </div>
+            <div className={style.menuItemDescriptionContainer}>
+              <p>Choice of beef, chicken or cheese $5.50</p>
+              <p>Flour enchilada $6.25</p>
+            </div>
+            <div className={style.menuItemContainer}>
+              <span>BREAKFAST SERVED ALL DAY</span>
+              <span>$10.25</span>
+            </div>
+            <div className={style.menuItemDescriptionContainer}>
+              <p>Huevos rancheros, chorizo, or machaca</p>
+              <p>Served with rice and beans</p>
+            </div>
+            <div className={style.menuItemContainer}>
+              <span>MENUDO (Friday & Satuday only)</span>
+              <span>$10.95</span>
+            </div>
+            <div className={style.menuItemDescriptionContainer}>
+              <p>Choice of flour or corn tortillas</p>
             </div>
         </section>
 
         <section className={style.menuSectionCard}>
-            <h2 className={style.menuSectionSubHeading}>Appetizers</h2>
-            <h3>Complementry Chips and Salsa (Additonal baskets $2.00)</h3>
+            <h2 className={style.menuSectionSubHeading}>CHILDREN'S PLATTER</h2>
+            <h3>(12 & under only)</h3>
+            <h3>$6.99</h3>
             <div className={style.menuItemContainer}>
-              <span>NACHOS</span>
-              <span>$9.25</span>
+              <span>Choice of one of the following:</span>
             </div>
             <div className={style.menuItemDescriptionContainer}>
-              <p>Chips layered with cheese, beans and topped with sour cream, guacamole & tomatos</p>
-              <p>Chicken or Beef add $1.00</p>
-              <p>Linda's style topped w/ enchilada sauce add $1.00</p>
-            </div>
-            <div className={style.menuItemContainer}>
-              <span>GUACAMOLE DIP</span>
-              <span>$8.75</span>
-            </div>
-            <div className={style.menuItemContainer}>
-              <span>POTATO SKINS</span>
-              <span>$9.75</span>
-            </div>
-            <div className={style.menuItemDescriptionContainer}>
-              <p>Topped with cheese, jalapenos, guacamole, sour cream and tomatos</p>
-            </div>
-            <div className={style.menuItemContainer}>
-              <span>CHEESY "n" SAUCY BEAN DIP</span>
-              <span>$8.75</span>
-            </div>
-            <div className={style.menuItemDescriptionContainer}>
-              <p>Topped with toasted jalapenos</p>
+              <p>TACO (Beef or chicken) (Carne asada add $1.00)</p>
+              <p>Bean & cheese burrito</p>
+              <p>Cheese quesadilla</p>
+              <p>Enchilada (Beef, chicken or cheese)</p>
             </div>
         </section>
 
         <section className={style.menuSectionCard}>
-            <h2 className={style.menuSectionSubHeading}>Appetizers</h2>
-            <h3>Complementry Chips and Salsa (Additonal baskets $2.00)</h3>
+            <h2 className={style.menuSectionSubHeading}>A LA CARTE</h2>
             <div className={style.menuItemContainer}>
-              <span>NACHOS</span>
-              <span>$9.25</span>
-            </div>
-            <div className={style.menuItemDescriptionContainer}>
-              <p>Chips layered with cheese, beans and topped with sour cream, guacamole & tomatos</p>
-              <p>Chicken or Beef add $1.00</p>
-              <p>Linda's style topped w/ enchilada sauce add $1.00</p>
-            </div>
-            <div className={style.menuItemContainer}>
-              <span>GUACAMOLE DIP</span>
-              <span>$8.75</span>
-            </div>
-            <div className={style.menuItemContainer}>
-              <span>POTATO SKINS</span>
-              <span>$9.75</span>
-            </div>
-            <div className={style.menuItemDescriptionContainer}>
-              <p>Topped with cheese, jalapenos, guacamole, sour cream and tomatos</p>
-            </div>
-            <div className={style.menuItemContainer}>
-              <span>CHEESY "n" SAUCY BEAN DIP</span>
-              <span>$8.75</span>
-            </div>
-            <div className={style.menuItemDescriptionContainer}>
-              <p>Topped with toasted jalapenos</p>
+              <span>TAMALE OR CHILE RELLENO $6.25</span>
+              <span>RICE OR BEANS $3.50</span>
+              <span>GREEN SALAD $3.75</span>
+              <span>TORTILLAS $1.75</span>
+              <span>SIDE OF SOUR CREAM $1.25</span>
+              <span>CHIPS $3.95</span>
+              <span>SALSA $4.95</span>
+              <span>SIDE OF ??? $10.95</span>
+              <span>SOUP $10.95</span>
+              <span>SOUP $10.95</span>
             </div>
         </section>
 
