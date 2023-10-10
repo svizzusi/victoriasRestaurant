@@ -133,7 +133,7 @@ Media Queries
 }
 
 @media screen and (max-width:480px) {
-    .logo {
-        width: 30px;
+    .logoContainer {
+        max-width: 60px;
     }
 }
