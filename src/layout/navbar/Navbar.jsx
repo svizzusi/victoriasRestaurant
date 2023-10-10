@@ -16,14 +16,16 @@ const Navbar = () => {
     return (
         <header>
             <nav className={style.nav}>
-                <Link 
-                  to={'/'}>
-                  <img 
-                    className={style.logo} 
-                    src={logo} 
-                    alt={logo} 
-                  />
-                </Link>
+                <div className={style.logoContainer}>
+                    <Link 
+                    to={'/'}>
+                    <img 
+                        className={style.logo} 
+                        src={logo} 
+                        alt={logo} 
+                    />
+                    </Link>
+                </div>
                 <ul 
                 className={navExpanded ? `${style.navLinks} ${style.expanded}` : style.navLinks}
                 >
