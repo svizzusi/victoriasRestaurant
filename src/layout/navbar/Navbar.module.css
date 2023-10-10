@@ -19,7 +19,7 @@ header {
 }
 
 .logo {
-    height: 60px;
+    width: 60px;
 }
 
 .navLinks {
@@ -125,4 +125,10 @@ Media Queries
         box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
     }
 
+}
+
+@media screen and (max-width:480px) {
+    .logo {
+        width: 30px;
+    }
 }
