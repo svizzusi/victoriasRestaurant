@@ -4,13 +4,11 @@ import victoriasTestImage from '../../assets/images/victoriasTestImage.jpeg'
 const About = () => {
   return (
     <section className={style.aboutSection}>
-      <div className={style.aboutTopStripe}></div>
       <h1 className={style.aboutSectionHeading}>About Us</h1>
       <div className={style.aboutSectionImage}>
         <img src={victoriasTestImage} alt='TestImage'/>
       </div>
       <div className={style.aboutSectionTextContainer}>
-        <div className={style.aboutBottomStripe}></div>
         <section className={style.aboutSectionText}>
           <p>Step into Victoria's Mexican Restaurant, an enduring Gilroy, California treasure that has thrived for more than four decades. Established in 1983, we have become an integral part of our community's culture, bridging generations with our culinary legacy.</p>
 
@@ -22,7 +20,6 @@ const About = () => {
 
           <p>Since 1983, we've had the privilege of serving multiple generations of families, forging enduring bonds with our patrons. We extend an earnest invitation for you to become a cherished member of our extended family here at Victoria's. We look forward to welcoming you soon, promising a heartwarming and unforgettable dining experience that reflects the essence of our rich history and enduring tradition.</p>
         </section>
-        <div className={style.aboutBottomStripe}></div>
       </div>
     </section>
   )
