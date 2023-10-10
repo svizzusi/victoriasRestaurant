@@ -11,7 +11,7 @@ export default [
         title:"Potato Tacos",
         details:"Potato Tacos are exclusively available from Wed-Sat. You have the choice of ordering them à la carte as a pair of two tacos or as a satisfying combo with Rice and Beans.",
         price:"14.99",
-        dataAOS: 'flip-left'
+        dataAOS: 'fade-up'
     },
     {
         id: 2,
@@ -19,7 +19,7 @@ export default [
         title:"#5 Combo",
         details:"Celebrate flavor with our Enchilada/Taco Combo, featuring a fusion of enchiladas, tacos, and a side of rice and beans. A fiesta on your plate!",
         price:"14.99",
-        dataAOS: 'flip-left'
+        dataAOS: 'fade-up'
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ export default [
         title:"Kids Taco",
         details:"Kids or adults with a light appitite can savor a single ground beef taco, served with a side of rice and beans. A perfect bite-sized treat for small appetites!",
         price:"10.99",
-        dataAOS: 'flip-left'
+        dataAOS: 'fade-up'
     },
     {
         id: 4,
@@ -35,7 +35,7 @@ export default [
         title:"#9 Combo",
         details:"Indulge in a trio of Chicken or Beef Taquitos, served alongside a flavorful portion of rice and beans. A savory delight awaits and never disappoints!",
         price:"13.99",
-        dataAOS: 'flip-left'
+        dataAOS: 'fade-up'
     },
     {
         id: 5,
@@ -43,7 +43,7 @@ export default [
         title:"Enchiladas",
         details:"Our mouth watering enchiladas are filled with cheese and your choice of meat. Paired with Rice, Beans and pico de gallo",
         price:"13.99",
-        dataAOS: 'flip-left'
+        dataAOS: 'fade-up'
     },
     {
         id: 6,
@@ -51,7 +51,7 @@ export default [
         title:"Enchiladas",
         details:"Our mouth watering enchiladas are filled with cheese and your choice of meat. Paired with Rice, Beans and pico de gallo",
         price:"13.99",
-        dataAOS: 'flip-left'
+        dataAOS: 'fade-up'
     },
     {
         id: 7,
@@ -59,7 +59,7 @@ export default [
         title:"Enchiladas",
         details:"Our mouth watering enchiladas are filled with cheese and your choice of meat. Paired with Rice, Beans and pico de gallo",
         price:"13.99",
-        dataAOS: 'flip-left'
+        dataAOS: 'fade-up'
     },
     {
         id: 8,
@@ -67,6 +67,6 @@ export default [
         title:"Enchiladas",
         details:"Our mouth watering enchiladas are filled with cheese and your choice of meat. Paired with Rice, Beans and pico de gallo",
         price:"13.99",
-        dataAOS: 'flip-left'
+        dataAOS: 'fade-up'
     }
 ]
