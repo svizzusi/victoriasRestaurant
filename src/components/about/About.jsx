@@ -12,7 +12,7 @@ const About = () => {
         <section className={style.aboutSectionText}>
           <p>Step into Victoria's Mexican Restaurant, an enduring Gilroy, California treasure that has thrived for more than four decades. Established in 1983, we have become an integral part of our community's culture, bridging generations with our culinary legacy.</p>
 
-          <p>Our family-owned establishment bears the name of our beloved matriarch, Victoria, as a tribute from her daughter, Linda. Linda, alongside her cherished sisters, Carmen and Maria, has dedicated herself to nurturing the heart of this restaurant.</p>
+          <p>Our family-owned establishment bears the name of our beloved matriarch, Victoria, as a tribute from her daughter, Linda. Linda, alongside her cherished sisters, Carmen and Trish, has dedicated herself to nurturing the heart of this restaurant.</p>
 
           <p>We fondly remember Don, Linda's son, a magnetic Elvis Presley impersonator who enchanted our patrons. Don's presence illuminated our renowned Thursday karaoke nights, and his spirit lives on in the photographs adorning our walls.</p>
 
