@@ -363,16 +363,16 @@ const Menu = () => {
             <div className={style.menuSectionItemContainer}>
               <h2 className={style.menuSectionSubHeading}>A LA CARTE</h2>
               <div className={style.menuItemDescriptionContainer}>
-                <p>TAMALE OR CHILE RELLENO $6.25</p>
-                <p>RICE OR BEANS $3.50</p>
-                <p>GREEN SALAD $3.75</p>
-                <p>TORTILLAS $1.75</p>
-                <p>SIDE OF SOUR CREAM $1.25</p>
-                <p>CHIPS $3.95</p>
-                <p>SALSA $4.95</p>
-                <p>SIDE OF ??? $10.95</p>
-                <p>SOUP $10.95</p>
-                <p>SOUP $10.95</p>
+                <p className={style.menuItemALaCarte}>TAMALE OR CHILE RELLENO $6.25</p>
+                <p className={style.menuItemALaCarte}>RICE OR BEANS $3.50</p>
+                <p className={style.menuItemALaCarte}>GREEN SALAD $3.75</p>
+                <p className={style.menuItemALaCarte}>TORTILLAS $1.75</p>
+                <p className={style.menuItemALaCarte}>SIDE OF SOUR CREAM $1.25</p>
+                <p className={style.menuItemALaCarte}>CHIPS $3.95</p>
+                <p className={style.menuItemALaCarte}>SALSA $4.95</p>
+                <p className={style.menuItemALaCarte}>SIDE OF ??? $10.95</p>
+                <p className={style.menuItemALaCarte}>SOUP $10.95</p>
+                <p className={style.menuItemALaCarte}>SOUP $10.95</p>
               </div>
             </div>
 

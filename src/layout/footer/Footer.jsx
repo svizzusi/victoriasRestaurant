@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className={style.footerContainer}>  
       <footer className={style.footer}>
-        <span className={style.footerLogo}>Victoria's Restaurant</span>
+        <span className={style.footerLogo}>Victoria's Mexican Restaurant</span>
         <div className={style.footerAddress}>
           <a 
             href='https://www.google.com/maps/place/757+1st+St,+Gilroy,+CA+95020/@37.0136786,-121.5870736,17z/data=!3m1!4b1!4m6!3m5!1s0x8091e232beab13a5:0x363ee1aa7b293300!8m2!3d37.0136786!4d-121.5844987!16s%2Fg%2F11ggr9jjgc?entry=ttu' 
