@@ -1,12 +1,12 @@
 import style from './About.module.css'
-import victoriasTestImage from '../../assets/images/victoriasTestImage.jpeg'
+import donald from '../../assets/images/donald.png'
 
 const About = () => {
   return (
     <section className={style.aboutSection}>
       <h1 className={style.aboutSectionHeading}>About Us</h1>
       <div className={style.aboutSectionImage}>
-        <img src={victoriasTestImage} alt='TestImage'/>
+        <img src={donald} alt='donald'/>
       </div>
       <div className={style.aboutSectionTextContainer}>
         <section className={style.aboutSectionText}>
