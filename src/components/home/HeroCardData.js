@@ -1,8 +1,11 @@
-import victoriasTestImage from '../../assets/images/victoriasTestImage.jpeg'
 import potatoTacos from '../../assets/images/potatoTacos.webp'
 import enchiladaTaco from '../../assets/images/enchiladaTaco.webp'
 import kidsTaco from '../../assets/images/kidsTaco.webp'
 import taquitos from '../../assets/images/taquitos.webp'
+import chickenChiminanga from '../../assets/images/chickenChiminanga.webp'
+import chileColorado from '../../assets/images/chileColorado.webp'
+import fajitaSaladPlate from '../../assets/images/fajitaSaladPlate.webp'
+import johnPeralesSalad from '../../assets/images/johnPeralesSalad.webp'
 
 export default [
     {
@@ -39,34 +42,34 @@ export default [
     },
     {
         id: 5,
-        img:victoriasTestImage,
-        title:"Enchiladas",
-        details:"Our mouth watering enchiladas are filled with cheese and your choice of meat. Paired with Rice, Beans and pico de gallo",
-        price:"13.99",
+        img:chickenChiminanga,
+        title:"#18 Chiminanga",
+        details:"Our Chiminanga comes with your choice of chicken, shredded beef, or chile verde. Paired with Rice, Beans and pico de gallo",
+        price:"14.95",
         dataAOS: 'fade-up'
     },
     {
         id: 6,
-        img:victoriasTestImage,
-        title:"Enchiladas",
-        details:"Our mouth watering enchiladas are filled with cheese and your choice of meat. Paired with Rice, Beans and pico de gallo",
-        price:"13.99",
+        img:chileColorado,
+        title:"#13 Chile Colorado",
+        details:"Our #13 Chile Colorado dish is filled with cheese and your choice of meat. Served with tortillas, rice, beans and pico de gallo",
+        price:"13.95",
         dataAOS: 'fade-up'
     },
     {
         id: 7,
-        img:victoriasTestImage,
-        title:"Enchiladas",
-        details:"Our mouth watering enchiladas are filled with cheese and your choice of meat. Paired with Rice, Beans and pico de gallo",
-        price:"13.99",
+        img:fajitaSaladPlate,
+        title:"Fajita Salad Plate",
+        details:"Our mouth watering fajitas salad plate with your choice of meat. Paired with Rice, Beans and pico de gallo",
+        price:"13.95",
         dataAOS: 'fade-up'
     },
     {
         id: 8,
-        img:victoriasTestImage,
-        title:"Enchiladas",
-        details:"Our mouth watering enchiladas are filled with cheese and your choice of meat. Paired with Rice, Beans and pico de gallo",
-        price:"13.99",
+        img:johnPeralesSalad,
+        title:"John Perales Salad",
+        details:"This amazing salad comes loaded with prawns, grilled chicken and special sauce. Served with rice and beans",
+        price:"17.95",
         dataAOS: 'fade-up'
     }
 ]

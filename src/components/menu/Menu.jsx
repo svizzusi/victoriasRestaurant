@@ -370,9 +370,9 @@ const Menu = () => {
                 <p className={style.menuItemALaCarte}>SIDE OF SOUR CREAM $1.25</p>
                 <p className={style.menuItemALaCarte}>CHIPS $3.95</p>
                 <p className={style.menuItemALaCarte}>SALSA $4.95</p>
-                <p className={style.menuItemALaCarte}>SIDE OF ??? $10.95</p>
+                {/* <p className={style.menuItemALaCarte}>SIDE OF ??? $10.95</p>
                 <p className={style.menuItemALaCarte}>SOUP $10.95</p>
-                <p className={style.menuItemALaCarte}>SOUP $10.95</p>
+                <p className={style.menuItemALaCarte}>SOUP $10.95</p> */}
               </div>
             </div>
 
