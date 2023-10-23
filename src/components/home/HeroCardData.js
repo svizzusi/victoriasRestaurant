@@ -52,7 +52,7 @@ export default [
         id: 6,
         img:chileColorado,
         title:"#13 Chile Colorado",
-        details:"Our #13 Chile Colorado dish is filled with cheese and your choice of meat. Served with tortillas, rice, beans and pico de gallo",
+        details:"Our #13 Chile Colorado dish is filled with cheese and your choice of meat. Served with tortillas, rice and beans",
         price:"13.95",
         dataAOS: 'fade-up'
     },
