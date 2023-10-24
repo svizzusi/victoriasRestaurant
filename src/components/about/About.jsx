@@ -16,7 +16,7 @@ const About = () => {
 
           <p>We fondly remember Don, Linda's son, a magnetic Elvis Presley impersonator who enchanted our patrons. Don's presence illuminated our renowned Thursday karaoke nights, and his spirit lives on in the photographs adorning our walls.</p>
 
-          <p>Today, the legacy continues under the capable management of Linda's daughter, Vicki, named after her beloved grandmother. In addition to the restaurant, Vicki oversees a Pilates studio next door, embodying our commitment to both family and community.</p>
+          {/* <p>Today, the legacy continues under the capable management of Linda's daughter, Vicki, named after her beloved grandmother. In addition to the restaurant, Vicki oversees a Pilates studio next door, embodying our commitment to both family and community.</p> */}
 
           <p>Since 1983, we've had the privilege of serving multiple generations of families, forging enduring bonds with our patrons. We extend an earnest invitation for you to become a cherished member of our extended family here at Victoria's. We look forward to welcoming you soon, promising a heartwarming and unforgettable dining experience that reflects the essence of our rich history and enduring tradition.</p>
         </section>
