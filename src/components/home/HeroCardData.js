@@ -12,7 +12,7 @@ export default [
         id: 1,
         img: potatoTacos,
         title: "Potato Tacos",
-        details: "Potato Tacos are exclusively available from Wed-Sat. You have the choice of ordering them à la carte as a pair of two tacos or as a satisfying combo with Rice and Beans.",
+        details: "Potato Tacos are exclusively available from Wed-Sat. You have the choice of ordering them à la carte as a pair of two tacos or as a satisfying combo with rice and beans.",
         price: "14.99",
         dataAOS: 'fade-up'
     },
@@ -44,7 +44,7 @@ export default [
         id: 5,
         img: chickenChimichanga,
         title: "#18 Chimichanga",
-        details: "Our Chimichanga comes with your choice of chicken, shredded beef, or chile verde. Paired with Rice, Beans, and pico de gallo",
+        details: "Our Chimichanga comes with your choice of chicken, shredded beef, or chile verde. Paired with rice, beans, and pico de gallo",
         price: "14.95",
         dataAOS: 'fade-up'
     },
@@ -60,7 +60,7 @@ export default [
         id: 7,
         img: fajitaSaladPlate,
         title: "Fajita Salad Plate",
-        details: "Our mouthwatering fajita salad plate with your choice of meat. Paired with Rice, Beans, and pico de gallo",
+        details: "Our mouthwatering fajita salad plate with your choice of meat. Paired with rice, beans, and pico de gallo",
         price: "13.95",
         dataAOS: 'fade-up'
     },
