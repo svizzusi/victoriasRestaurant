@@ -2,7 +2,7 @@ import potatoTacos from '../../assets/images/potatoTacos.webp';
 import enchiladaTaco from '../../assets/images/enchiladaTaco.webp';
 import kidsTaco from '../../assets/images/kidsTaco.webp';
 import taquitos from '../../assets/images/taquitos.webp';
-import chickenChimichanga from '../../assets/images/chickenChimichanga.webp'; // Corrected spelling
+import chickenChimichanga from '../../assets/images/chickenChimichanga.webp'; 
 import chileColorado from '../../assets/images/chileColorado.webp';
 import fajitaSaladPlate from '../../assets/images/fajitaSaladPlate.webp';
 import johnPeralesSalad from '../../assets/images/johnPeralesSalad.webp';
@@ -12,7 +12,7 @@ export default [
         id: 1,
         img: potatoTacos,
         title: "Potato Tacos",
-        details: "Potato Tacos are exclusively available from Wed-Sat. You have the choice of ordering them à la carte as a pair of two tacos or as a satisfying combo with rice and beans.",
+        details: "Potato Tacos are exclusively available from Wed-Sat. You have the choice of ordering them à la carte as a pair of two tacos or as a satisfying combo with rice and Beans.",
         price: "14.99",
         dataAOS: 'fade-up'
     },
