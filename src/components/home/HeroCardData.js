@@ -13,7 +13,7 @@ export default [
         img: potatoTacos,
         title: "Potato Tacos",
         details: "Potato Tacos are exclusively available from Wed-Sat. You have the choice of ordering them à la carte as a pair of two tacos or as a satisfying combo with rice and Beans.",
-        price: "14.99",
+        price: "16.95",
         dataAOS: 'fade-up'
     },
     {
@@ -21,15 +21,15 @@ export default [
         img: enchiladaTaco,
         title: "#5 Combo",
         details: "Celebrate flavor with our Enchilada/Taco Combo, featuring a fusion of enchiladas, tacos, and a side of rice and beans. A fiesta on your plate!",
-        price: "14.99",
+        price: "17.95",
         dataAOS: 'fade-up'
     },
     {
         id: 3,
         img: kidsTaco,
-        title: "Kids Taco",
+        title: "Children's Platter",
         details: "Kids or adults with a light appetite can savor a single ground beef taco, served with a side of rice and beans. A perfect bite-sized treat for small appetites!",
-        price: "10.99",
+        price: "8.95",
         dataAOS: 'fade-up'
     },
     {
@@ -37,7 +37,7 @@ export default [
         img: taquitos,
         title: "#9 Combo",
         details: "Indulge in a trio of Chicken or Beef Taquitos, served alongside a flavorful portion of rice and beans. A savory delight awaits and never disappoints!",
-        price: "13.99",
+        price: "17.95",
         dataAOS: 'fade-up'
     },
     {
@@ -45,7 +45,7 @@ export default [
         img: chickenChimichanga,
         title: "#18 Chimichanga",
         details: "Our Chimichanga comes with your choice of chicken, shredded beef, or chile verde. Paired with rice, beans, and pico de gallo",
-        price: "14.95",
+        price: "18.95",
         dataAOS: 'fade-up'
     },
     {
@@ -53,15 +53,15 @@ export default [
         img: chileColorado,
         title: "#13 Chile Colorado",
         details: "Our #13 Chile Colorado dish is filled with cheese and your choice of meat. Served with tortillas, rice, and beans",
-        price: "13.95",
+        price: "18.95",
         dataAOS: 'fade-up'
     },
     {
         id: 7,
         img: fajitaSaladPlate,
-        title: "Fajita Salad Plate",
+        title: "Fajita Salad",
         details: "Our mouthwatering fajita salad plate with your choice of meat. Paired with rice, beans, and pico de gallo",
-        price: "13.95",
+        price: "18.95",
         dataAOS: 'fade-up'
     },
     {
@@ -69,7 +69,7 @@ export default [
         img: johnPeralesSalad,
         title: "John Perales Salad",
         details: "This amazing salad comes loaded with prawns, grilled chicken, and special sauce. Served with rice and beans",
-        price: "17.95",
+        price: "22.95",
         dataAOS: 'fade-up'
     }
 ];

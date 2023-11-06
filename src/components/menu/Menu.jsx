@@ -25,7 +25,7 @@ const Menu = () => {
               </div>
               <div className={style.menuItemContainer}>
                 <span>{'CHEESY "n" SAUCY BEAN DIP'}</span>
-                <span>$.75</span>
+                <span>$10.75</span>
               </div>
               <div className={style.menuItemDescriptionContainer}>
                 <p>Topped with toasted jalapenos</p>
@@ -371,17 +371,17 @@ const Menu = () => {
               <h2 className={style.menuSectionSubHeading}>BEVERAGES</h2>
               <div className={style.menuItemContainer}>
                 <span>DRINKS</span>
+                <span>$3.00</span>
               </div>
               <div className={style.menuItemDescriptionContainer}>
                 <p>Coke, Diet Coke, Sprite, Lemonade, Root Beer, Ice Tea, Milk, Coffee</p>
-                <span>$3.00</span>
               </div>
               <div className={style.menuItemContainer}>
                 <span>WINE</span>
+                <span>Glass $9.50</span>
               </div>
               <div className={style.menuItemDescriptionContainer}>
                 <p>Red or White</p>
-                <p>Glass $9.50</p>
               </div>
               <div className={style.menuItemContainer}>
                 <span>DOMESTIC BEER</span>
