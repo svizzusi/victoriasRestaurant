@@ -14,19 +14,6 @@ The website is built using the following technologies:
 - React-Icons for icon support
 - CSS Modules for styling
 
-## Project Structure
-The project's source code is organized as follows:
-
-- `src/layout/navbar/Navbar.js`: Navigation bar component.
-- `src/layout/footer/Footer.js`: Footer component.
-- `src/views/Home.js`: Home page component.
-- `src/views/AboutPage.js`: About page component.
-- `src/views/ContactPage.js`: Contact page component.
-- `src/views/MenuPage.js`: Menu page component.
-- `src/views/Menu.js`: Menu component, displaying the restaurant's menu items.
-- `src/views/HeroSection.js`: Hero section component with restaurant information.
-- `src/views/Map.js`: Map component displaying the restaurant's location.
-
 ## Available Scripts
 - `dev`: Start the development server using Vite.
 - `build`: Build the project for production.
