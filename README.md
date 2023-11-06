@@ -1,4 +1,5 @@
 # Victoria's Mexican Restaurant Website - README
+![Screenshot 2023-11-06 at 9 36 46 AM](https://github.com/svizzusi/victoriasRestaurant/assets/121833017/d6843b49-3c22-4064-8495-79ddf90efac2)
 
 ## Introduction
 This repository contains the source code for Victoria's Mexican Restaurant website, which was developed for a freelance client in collaboration with the restaurant owner. The website is designed to showcase the restaurant's menu, location, and other information. It has been privately owned and is not open source. You can view the website on mobile phones, tablets, or desktops at [Victoria's Mexican Restaurant](https://victoriasrestaurantgilroy.com).
