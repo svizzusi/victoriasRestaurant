@@ -378,7 +378,7 @@ const Menu = () => {
               </div>
               <div className={style.menuItemContainer}>
                 <span>WINE</span>
-                <span>Glass $9.50</span>
+                <span>$9.50</span>
               </div>
               <div className={style.menuItemDescriptionContainer}>
                 <p>Red or White</p>
