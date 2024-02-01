@@ -27,7 +27,7 @@ export default [
     {
         id: 3,
         img: kidsTaco,
-        title: "Children's Platter",
+        title: "Kid's Taco",
         details: "Kids or adults with a light appetite can savor a single ground beef taco, served with a side of rice and beans. A perfect bite-sized treat for small appetites!",
         price: "8.95",
         dataAOS: 'fade-up'
